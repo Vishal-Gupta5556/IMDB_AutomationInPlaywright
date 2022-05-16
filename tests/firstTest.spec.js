@@ -28,8 +28,7 @@ test('First Movie', async ({page})=>
   console.log(firstmovie);   
   await expect(movielist).toContainText('A Clockwork Orange');
   console.log('Verified: that movie search with exact name returns result list with 1st result as the correct movie');
-  
-  console.log(director);
+     
    
 })
 
